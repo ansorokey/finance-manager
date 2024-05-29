@@ -1,8 +1,9 @@
 // This is a catch-all route to redirect to this page
 // from any parameters in the URL.
 
-export default function SignInPage() {
-    return (
-        <h1>Hello from Sign-in</h1>
-    );
+import { SignIn } from "@clerk/nextjs";
+
+export default function Page() {
+    // add path="sign-in" is not working
+    return <SignIn />;
 }
