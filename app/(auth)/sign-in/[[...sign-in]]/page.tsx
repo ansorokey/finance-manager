@@ -5,5 +5,9 @@ import { SignIn } from "@clerk/nextjs";
 
 export default function Page() {
     // add path="sign-in" is not working
-    return <SignIn />;
+    return (
+        <div className="min-">
+            <SignIn />
+        </div>
+    );
 }

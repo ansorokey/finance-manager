@@ -1,5 +1,6 @@
 # Tutorial Timestamp
-[https://youtu.be/N_uNKAus0II?t=1564]
+[https://youtu.be/N_uNKAus0II?t=1933git add .
+git commit -m 'wo]
 
 ## Running the project for development
 `npm run dev`
