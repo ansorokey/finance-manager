@@ -25,6 +25,13 @@ test/
   L page.tsx
 /test/<testId>
 ```
+When we create an api route, we add a `route.ts` file. Within that file, we define a function for the method used to access the route.
+```
+/api
+ L /test
+  L /[testId]
+   L []
+```
 
 ### .Next Cache
 Changes made to routes make a change in the `.next` directory cache. To fix any updates to the cache, close out of any nextjs development terminals, remove the entire `.next` directory, and then run the app from the termional once again. This re-initializes the directory.
@@ -35,3 +42,5 @@ ShadCn components can be installed once and then modified freely to fit your app
 A **variant** is a pre-defined set of classes that we can add to style a single component different ways. Rather than making differnt components for an accept button and a cancel button, we can simply have one button with two defined variants.
 
 ## Clerk
+
+## HonoJs
