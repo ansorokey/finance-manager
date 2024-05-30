@@ -1,6 +1,5 @@
 # Tutorial Timestamp
-[https://youtu.be/N_uNKAus0II?t=1933]
-
+[https://youtu.be/N_uNKAus0II?t=2662]
 ## Running the project for development
 `npm run dev`
 (defaults to localhost:3000)
@@ -27,10 +26,10 @@ test/
 ```
 When we create an api route, we add a `route.ts` file. Within that file, we define a function for the method used to access the route.
 ```
-/api
- L /test
-  L /[testId]
-   L []
+api/
+ L test/
+  L [testId]/
+   L route.ts
 ```
 
 ### .Next Cache
