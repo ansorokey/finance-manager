@@ -43,3 +43,4 @@ A **variant** is a pre-defined set of classes that we can add to style a single 
 ## Clerk
 
 ## HonoJs
+Hono is for turning our folder based routing into file based routing.
