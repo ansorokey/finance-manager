@@ -1,5 +1,7 @@
 # Tutorial Timestamp
-[https://youtu.be/N_uNKAus0II?t=2662]
+Setting up hono with clerk
+[https://youtu.be/N_uNKAus0II?t=3793]
+
 ## Running the project for development
 `npm run dev`
 (defaults to localhost:3000)
