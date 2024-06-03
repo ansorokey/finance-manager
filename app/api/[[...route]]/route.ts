@@ -1,10 +1,10 @@
 import { Hono } from 'hono'
 import { handle } from 'hono/vercel'
-import { z } from 'zod';
-import { zValidator } from '@hono/zod-validator';
+// import { z } from 'zod';
+// import { zValidator } from '@hono/zod-validator';
 import { clerkMiddleware, getAuth } from '@hono/clerk-auth'
-import authors from './authors'
-import books from './books'
+// import authors from './authors'
+// import books from './books'
 
 // Axios (used by plaid) does not work well with edge
 export const runtime = 'edge';
@@ -13,24 +13,24 @@ export const runtime = 'edge';
 const app = new Hono().basePath('/api')
 
 // Naviagte to Sub-routes
-app.route('/authors', authors);
-app.route('/books', books);
+// app.route('/authors', authors);
+// app.route('/books', books);
 
 // a simple route
 app.get('/hello',
     clerkMiddleware(),
     (c) => {
 
-        const auth = getAuth(c);
-        if (!auth?.userId) {
-            return c.json({
-                error: "unauthorized",
-                userId: auth?.userId
-            });
-        }
+        // const auth = getAuth(c);
+        // if (!auth?.userId) {
+        //     return c.json({
+        //         error: "unauthorized",
+        //         userId: auth?.userId
+        //     });
+        // }
 
         return c.json({
-            message: 'Hello Next.js!',
+            message: 'Hello World!',
         })
 })
 
