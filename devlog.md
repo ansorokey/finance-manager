@@ -1,6 +1,6 @@
 # Tutorial Timestamp
-Setting up hono with clerk
-[https://youtu.be/N_uNKAus0II?t=3793]
+Setting up dashboard layout and components
+[https://youtu.be/N_uNKAus0II?t=5246]
 
 ## Running the project for development
 `npm run dev`
