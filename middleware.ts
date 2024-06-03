@@ -4,7 +4,7 @@ import { NextResponse } from "next/server";
 // Turns these routes into protected (authenticated) routes
 const isProtectedRoute = createRouteMatcher([
     '/',
-    '/api(.*)' // Redirects away from the api routes
+    // '/api(.*)' // Redirects away from the api routes
 ]);
 
 export default clerkMiddleware((auth, request) => {
