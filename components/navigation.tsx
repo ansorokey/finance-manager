@@ -2,6 +2,7 @@
 // React hooks can only be used within files marked as useclinet
 // Files are server components by default.
 // A server component can interact directly with the server.
+// still is rendered server side
 
 import { usePathname } from "next/navigation";
 import { NavButton } from "./navbutton";
