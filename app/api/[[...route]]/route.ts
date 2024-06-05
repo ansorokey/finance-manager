@@ -8,7 +8,11 @@ export const runtime = 'edge';
 // All routes are prepended with /api
 const app = new Hono().basePath('/api')
 
-app.route("/accounts", accounts);
+// all sub routes must be chained in order to export
+const routes = app
+    .route("/accounts", accounts);
 
-export const GET = handle(app)
-export const POST = handle(app)
+export const GET = handle(app);
+export const POST = handle(app);
+
+export type AppType = typeof routes;

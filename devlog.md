@@ -1,6 +1,6 @@
 # Tutorial Timestamp
-Having trouble installing the drizzle orm, something with react version mayvbe?
-[https://youtu.be/N_uNKAus0II?t=6599]
+Setting up react query
+[https://youtu.be/N_uNKAus0II?t=8306]
 
 ## Running the project for development
 `npm run dev`
