@@ -46,3 +46,6 @@ A **variant** is a pre-defined set of classes that we can add to style a single 
 
 ## HonoJs
 Hono is for turning our folder based routing into file based routing.
+
+## Drizzle
+`npm run db:generate` and `npm run db:migrate` to migrate schema data.
