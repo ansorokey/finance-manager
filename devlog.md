@@ -1,10 +1,10 @@
 # Tutorial Timestamp
-Styling the welcome messsage component
-[https://youtu.be/N_uNKAus0II?t=6235]
+Having trouble installing the drizzle orm, something with react version mayvbe?
+[https://youtu.be/N_uNKAus0II?t=6599]
 
 ## Running the project for development
 `npm run dev`
-(defaults to localhost:3000)
+(defaults to localhost:3000)9
 
 ## Pages and Routing
 - Nextjs uses folder and file based routing.
