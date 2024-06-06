@@ -1,6 +1,6 @@
 # Tutorial Timestamp
-Setting up react query
-[https://youtu.be/N_uNKAus0II?t=8306]
+Accounts hook should be working
+[https://youtu.be/N_uNKAus0II?t=8963]
 
 ## Running the project for development
 `npm run dev`
