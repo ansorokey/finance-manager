@@ -1,6 +1,6 @@
 # Tutorial Timestamp
-Accounts hook should be working
-[https://youtu.be/N_uNKAus0II?t=8963]
+Working on error hanfling
+[https://youtu.be/N_uNKAus0II?t=9320]
 
 ## Running the project for development
 `npm run dev`
