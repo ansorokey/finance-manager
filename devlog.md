@@ -1,6 +1,6 @@
 # Tutorial Timestamp
-Working on error hanfling
-[https://youtu.be/N_uNKAus0II?t=9320]
+starting accounts post route
+[https://youtu.be/N_uNKAus0II?t=9807]
 
 ## Running the project for development
 `npm run dev`
