@@ -1,6 +1,6 @@
 # Tutorial Timestamp
-starting accounts post route
-[https://youtu.be/N_uNKAus0II?t=9807]
+Adding cuid
+[https://youtu.be/N_uNKAus0II?t=10199]
 
 ## Running the project for development
 `npm run dev`
