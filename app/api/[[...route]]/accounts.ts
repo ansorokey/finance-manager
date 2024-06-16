@@ -5,6 +5,7 @@ import { clerkMiddleware, getAuth } from "@hono/clerk-auth";
 import { eq } from "drizzle-orm";
 import { zValidator } from "@hono/zod-validator";
 
+// All routes begin with '/accounts'
 const app = new Hono()
     .get('/', clerkMiddleware(), async (c) => {
         const auth = getAuth(c);
